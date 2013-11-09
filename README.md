@@ -3,7 +3,7 @@ microsecond [![Build Status](https://secure.travis-ci.org/fengmk2/microsecond.pn
 
 ![logo](https://raw.github.com/fengmk2/microsecond/master/logo.png)
 
-microsecond desc
+microsecond diff.
 
 ## Install
 
@@ -16,8 +16,8 @@ $ npm install microsecond
 ```js
 var microsecond = require('microsecond');
 
-var now = microsecond.now();
-console.log(microsecond.now() - now);
+var time = microsecond.start();
+console.log(microsecond.diff(time));
 ```
 
 ## License 
