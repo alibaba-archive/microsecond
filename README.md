@@ -1,6 +1,8 @@
 microsecond [![Build Status](https://secure.travis-ci.org/fengmk2/microsecond.png)](http://travis-ci.org/fengmk2/microsecond) [![Coverage Status](https://coveralls.io/repos/fengmk2/microsecond/badge.png)](https://coveralls.io/r/fengmk2/microsecond) [![Build Status](https://drone.io/github.com/fengmk2/microsecond/status.png)](https://drone.io/github.com/fengmk2/microsecond/latest)
 =======
 
+[![NPM](https://nodei.co/npm/microsecond.png?downloads=true&stars=true)](https://nodei.co/npm/microsecond/)
+
 ![logo](https://raw.github.com/fengmk2/microsecond/master/logo.png)
 
 microsecond diff.
@@ -20,7 +22,7 @@ var time = microsecond.start();
 console.log(microsecond.diff(time));
 ```
 
-## License 
+## License
 
 (The MIT License)
 
